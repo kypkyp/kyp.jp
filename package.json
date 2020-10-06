@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "kyp-jp",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A kyp website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "kyp <kyp@kmc.gr.jp>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.comkypkyp/kyp.jp/issues"
   },
   "dependencies": {
     "gatsby": "^2.24.66",
@@ -24,6 +24,7 @@
     "gatsby-source-filesystem": "^2.3.31",
     "gatsby-transformer-remark": "^2.8.36",
     "gatsby-transformer-sharp": "^2.5.16",
+    "gh-pages": "^3.1.0",
     "prismjs": "^1.21.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -34,7 +35,7 @@
   "devDependencies": {
     "prettier": "2.1.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://kyp.jp",
   "keywords": [
     "gatsby"
   ],
@@ -42,7 +43,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "https://github.com/kypkyp/kyp.jp"
   },
   "scripts": {
     "build": "gatsby build",
@@ -51,6 +52,7 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build && gh-pages -d public -b master"
   }
 }

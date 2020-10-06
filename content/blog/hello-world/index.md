@@ -1,231 +1,35 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: ハローワールド！
+date: "2020-10-05"
+description: "この投稿を見ているということは、私はもうkyp.jpのホスティングに成功したのでしょう。"
 ---
 
-This is my first post on my new fake blog! How exciting!
+　この投稿を見ているということは、私はもうkyp.jpのホスティングに成功したのでしょう。この記事を書いている現段階では、Github Pagesへのリダイレクトがうまく動いておらず、Githubからの404が返ってくる状況です。もう寝てしまいたい。
 
-I'm sure I'll write a lot more interesting things in the future.
+　ことの始まりは数時間前、今日何気なく[Google Domains](https://domains.google)を眺めていたところ、[kyp.jp](https://kyp.jp)というドメインが年5000円近くで買えることに気づいたことでした。  
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+　気づいたら買っていました。そういう気分だったのです。
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+　話は遡って高校生くらいの頃、自分には文章が得意だという自負がありました。それは点数で証明できるようなことではありませんが、文章を書くのは昔からの趣味だったし、現実逃避で書いていたブログは友人たちにそれなりの評価を得ていたのです。
 
-![Chinese Salty Egg](./salty_egg.jpg)
+　しかしそれはいわゆる駄文で、数年もしないうちに自分でも見るに堪えない黒歴史になりました。
 
-You can also write code blocks here!
+　自分の文章の特徴ははっきり分かっていました。装飾過剰、話に余計な脱線が多く、本質的でも示唆的でもない必要過剰な修飾が文の大半を占めていて、その支離滅裂な枝葉末節のせいで非常に読みづらい文章しか書けなかったのです。ちょうど今のこの一文のように。
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+　高校生の頃の自分には、その余計な脱線をも必然と言い張れる一種の図太さがあったのだと思います。しかし大学生になって、他の人が書いた色々な文章を読んだり、仮にも文学部の学生として文章のことを学んだりするうちに、自分の文章にひどく自信が持てなくなっていました。一晩中寝れなくて考えが巡る朝方、冷たい窓越しの朝日を浴びながら文字を打つのですが、ディスプレイに映った文章はどれも陳腐で収まりの悪いように見えました（今も似たようなものです）。
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+　前置きが長くなってしまいましたが、このサイトは個人的な文章を書く練習用のブログとして、使用していけたらいいなと思っています。はてなブログやnoteなどと比べて共有ボタンがなく、他ブログへの導線もないので、書いているときに他人のことを意識しなくて済むのがとてもありがたいですね。本来はもう少し長く、文章とは何か、ブログとは何か、己の人生は何かについての壮大な前フリを書くつもりだったのですが、これだけの短い文章を書くだけでも疲れて死にそうになっているので、最初の記事はこの程度に留めておきます。
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+#### 技術的なことについて
 
-This is a paragraph.
+　このウェブサイト([kyp.jp](https://kyp.jp/))は[Gatsby.js](https://www.gatsbyjs.com/)で作られたものを[Github Pages](https://github.com/)で配信しているはずです。前述した通り、この記事を書いている段階ではkyp.jpからの表示を確認できていないので、公開された頃には全く違う構成になっているかもしれません(Github Pagesがうまく行かなかったらGithub ActionsでS3にデプロイする構成にするかも)。
 
-    This is a paragraph.
+　サイトジェネレータのほうは何を使うか非常に迷いました。最近[メタプログラミングRuby](https://www.amazon.co.jp/dp/4873117437)を読んでRubyのことが好きになっていたので、[Middleman](https://middlemanapp.com/jp/)や[Jekyll](http://jekyllrb-ja.github.io/)を使おうかと思ったのですが（Rails製の[Nuita](https://nuita.net/)の開発にも役立つかも）、結局はGatsbyにしました。イケてるフレームワークに乗り換えていくの、個人的にはそこまで好きじゃないんですけどね……（逆張りのオタク）。  
 
-# Header 1
+　サイトの表示が速いらしいというのがその理由です。速さは大事。
 
-## Header 2
+　こういうフロントエンドバリバリのフレームワークはこれまで使った経験がほぼ無いので、一旦はカスタマイズを諦めて[Gatsby Blog Theme](https://www.gatsbyjs.com/plugins/gatsby-theme-blog/)というテーマを導入しています。
 
-    Header 1
-    ========
+　見た目はあまり好きじゃないので（特に段落とかがひどい）、あとでGatsbyのチュートリアルを見ながらいじってみようと思います。チュートリアルに敗北したらやっぱりMiddlemanに移行します。
 
-    Header 2
-    --------
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+　kyp.jpをよろしくお願いします。しばらくは黙々と書いていく予定です。
