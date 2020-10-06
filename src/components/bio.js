@@ -10,7 +10,7 @@ import React from "react"
 const Bio = () => {
   return (
     <div className="bio">
-      ここにいい感じの説明文が入る
+      これは<a href="https://twitter.com/_kypu_/">kyp</a>の個人サイトです。全ての内容は予告なく変更される可能性があります。
     </div>
   )
 }
