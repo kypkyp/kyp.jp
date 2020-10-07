@@ -10,7 +10,8 @@ import React from "react"
 const Bio = () => {
   return (
     <div className="bio">
-      <a href="https://twitter.com/_kypu_/">kyp</a>の個人サイトになる予定の場所です。
+      <a href="https://twitter.com/_kypu_/">kyp</a>
+      の個人サイトになる予定の場所です。
     </div>
   )
 }

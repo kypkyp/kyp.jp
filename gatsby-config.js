@@ -9,7 +9,7 @@ module.exports = {
     siteUrl: `https://kyp.jp/`,
     social: {
       twitter: `_kypu`,
-      github: `kypkyp`
+      github: `kypkyp`,
     },
   },
   plugins: [

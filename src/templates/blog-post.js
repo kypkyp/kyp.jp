@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -28,10 +27,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
           itemProp="articleBody"
+          className="article-body"
         />
         <hr />
-        <footer>
-        </footer>
+        <footer></footer>
       </article>
       <nav className="blog-post-nav">
         <ul

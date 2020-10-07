@@ -315,6 +315,14 @@ a:focus {
   margin: var(--spacing-0);
 }
 
+.article-body p {
+  text-indent: 1em;
+  word-break: normal;
+  word-wrap: break-word;
+  line-height: 200%;
+  margin-bottom: 1.5em;  
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
