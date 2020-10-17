@@ -12,21 +12,17 @@ import { faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons"
 const Bio = () => {
   const icon = {
     twitter: <FontAwesomeIcon icon={faTwitter} />,
-    github: <FontAwesomeIcon icon={faGithub} />
+    github: <FontAwesomeIcon icon={faGithub} />,
   }
 
   return (
     <div className="bio">
       <ul>
         <li class="bio-list-item">
-          <a href="https://twitter.com/_kypu_">
-            {icon.twitter}
-          </a>
+          <a href="https://twitter.com/_kypu_">{icon.twitter}</a>
         </li>
         <li class="bio-list-item">
-          <a href="https://github.com/kypkyp">
-            {icon.github}
-          </a>
+          <a href="https://github.com/kypkyp">{icon.github}</a>
         </li>
       </ul>
     </div>
