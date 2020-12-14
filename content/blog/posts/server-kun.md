@@ -1,7 +1,7 @@
 ---
 title: Discord+GCEでいい感じのゲームサーバーを建てる
 date: "2020-12-14"
-description: ""
+description: "この記事はKMCアドベントカレンダー2020 14日目の記事です。"
 ---
 
 この記事は [KMC アドベントカレンダー 2020](https://adventar.org/calendars/5654) 14 日目の記事です。前日の記事は morisawa さんの [Anima2D でシーンビューからメッシュが消えたときの原因とその対処法](https://qiita.com/mori-memo/items/a4b7fac1abe62dda1fb1) でした。
