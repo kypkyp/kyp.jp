@@ -290,16 +290,8 @@ a:focus {
   display: flex;
   margin-bottom: var(--spacing-16);
 }
-
-.bio-list-item {
-  list-style: none;
-  float: left;
-  margin-right: var(--spacing-2);
-}
-
-.bio-list-item a {
-  font-size: l;
-  color: #000;
+.bio a {
+  padding-right: var(--spacing-2);
 }
 
 .blog-post header h1 {
