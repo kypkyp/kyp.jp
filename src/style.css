@@ -312,7 +312,6 @@ a:focus {
 }
 
 .article-body p {
-  text-indent: 1em;
   word-break: normal;
   word-wrap: break-word;
   line-height: 200%;
