@@ -318,6 +318,12 @@ a:focus {
   margin-bottom: 1.5em;  
 }
 
+.article-body br {
+  display: block;
+  content: "";
+  margin: 1em 0;
+}
+
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
