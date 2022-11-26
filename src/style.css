@@ -27,7 +27,7 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, "Noto Sans", sans-serif;
+  --fontFamily-sans: "Arial", "Helvetica Neue", "Noto Sans", sans-serif;
   --font-body: var(--fontFamily-sans);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
@@ -252,6 +252,8 @@ a:focus {
 
 .main-heading {
   font-size: var(--fontSize-7);
+  font-weight: normal;
+  letter-spacing: normal;
   margin: 0;
 }
 
@@ -276,7 +278,7 @@ a:focus {
 }
 
 .header-link-home {
-  font-weight: var(--fontWeight-bold);
+  font-weight: normal;
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
@@ -311,7 +313,7 @@ a:focus {
   word-break: normal;
   word-wrap: break-word;
   line-height: 200%;
-  margin-bottom: 1.5em;  
+  margin-bottom: 1.5em;
 }
 
 .article-body br {
