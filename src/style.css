@@ -282,6 +282,7 @@ a:focus {
   font-family: var(--font-heading);
   text-decoration: none;
   font-size: var(--fontSize-2);
+  color: var(--color-text);
 }
 
 .bio {
