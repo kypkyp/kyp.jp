@@ -5,6 +5,8 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const privatePostTypes = ["poem"];
+
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const posts = data.allMarkdownRemark.nodes
@@ -23,12 +25,19 @@ const BlogIndex = ({ data, location }) => {
     )
   }
 
+  const publicPosts = posts.filter((post) => {
+    const type = post.frontmatter.type;
+    const isPrivate = type !== undefined && privatePostTypes.includes(type)
+
+    return !isPrivate;
+  });
+
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="All posts" />
       <Bio />
       <ol style={{ listStyle: `none` }}>
-        {posts.map(post => {
+        {publicPosts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
@@ -82,6 +91,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          type
         }
       }
     }
