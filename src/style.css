@@ -320,7 +320,7 @@ a:focus {
 .article-body br {
   display: block;
   content: "";
-  margin: 1em 0;
+  margin: 0;
 }
 
 .gatsby-highlight {

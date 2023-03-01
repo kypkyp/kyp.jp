@@ -34,7 +34,7 @@ Nuita は元々趣味として、自分や Twitter 上の親しい人たちで�
 
 SAFE HAVN は任意団体になったので、運営するサービスも自分たちの理想や自己顕示欲を満たすことが目標になります。大儲けしたいとはもう考えていませんが、サービスをでっかくして皆にちやほやされたい、という気持ちはまだ残っています。せっかく学んだベンチャービジネスの手法を用いて、決してベンチャーが手を出さない変わったサービスを作り続けていきたいです。
 
-なお、SAFE HAVN は Safe Haven の名の通り、現実からの避難所を作ることを目標にしています。現実のしがらみとか、倫理観とか、人間関係とか、そういうものから逃避できる自由で優しい空間を、インターネットの世界に創出したいです。現在運営しているサービスは Nuita だけですが、いままた新しいサービスの開発を始めています。無職の時間を活かしながら、新たなる SAFE HAVN の世界を皆様にお見せしたいと思います。よろしくお願いいたします。
+なお、SAFE HAVN は Safe Haven の名の通り、現実からの避難所を作ることを目標にしています。現実のしがらみとか、倫理観とか、人間関係とか、そういうものから逃避できる自由で優しい空間を、インターネットの世界に創出したいです。現在公開しているサービスは Nuita だけですが、内側では密かに新たなるサービスも作り始めています。無職の時間を活かしつつ、近い将来、皆様に新たなる SAFE HAVN の世界を皆様にお見せいたします。よろしくお願いいたします。
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2706423874/size=large/bgcol=ffffff/linkcol=e99708/tracklist=false/artwork=small/track=2353956847/transparent=true/" seamless><a href="https://garoad.bandcamp.com/album/va-11-hall-a-second-round">VA-11 HALL-A - Second Round by Garoad</a></iframe>
 
@@ -42,7 +42,6 @@ SAFE HAVN は任意団体になったので、運営するサービスも自分�
 
 ---
 
-SAFE HAVN 代表  
-kyp
+SAFE HAVN 代表<br>kyp
 
 （この結びかっこいい）
