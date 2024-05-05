@@ -50,7 +50,7 @@ package hoge
 import "embed"
 
 //go:embed ../../assets/*
-var fs embed.FS
+var assets embed.FS
 ```
 
 どうするのか調べていたところ、[いい感じのGitHub上での回答](https://github.com/golang/go/issues/46056#issuecomment-1339401427)を見つけました。「アセットのあるディレクトリに新しいパッケージを作って、他のパッケージからimportして読み込め」ということです。  
