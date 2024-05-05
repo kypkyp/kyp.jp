@@ -44,6 +44,8 @@ project/
 
 このとき、`app/scenes/hoge.go` で以下のように書いたとしても、`assets/`以下のファイルを読み込むことはできません。（そもそも`../`とかが使えない）
 
+`ダメな例`
+
 ```go
 package hoge
 
