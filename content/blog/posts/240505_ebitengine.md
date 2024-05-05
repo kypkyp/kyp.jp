@@ -120,7 +120,7 @@ import (
 
 // ちなみにmainからの相対パスになるので、テスト時に読み込むとパスがずれたりする。
 // テストで使うならこういうのを使うと良さそう https://zenn.dev/tminamiii/articles/find-go-project-root
-var Fs = os.DirFS("/assets")
+var Assets = os.DirFS("/assets")
 ```
 
 これで通常時は実行時に外部ファイルを読み込むようにしつつ、リリース用のビルドを作る際だけ以下のようなタグ付けを行うことで、`go:embed` を用いた外部ファイル埋め込みを行うことができます。
