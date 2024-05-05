@@ -8,7 +8,7 @@ module.exports = {
     // description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://kyp.jp/`,
     social: {
-      twitter: `_kypu`,
+      twitter: `_newkyp`,
       github: `kypkyp`,
     },
   },
