@@ -286,8 +286,10 @@ a:focus {
 }
 
 .bio {
-  display: flex;
   margin-bottom: var(--spacing-16);
+}
+.bio p {
+  margin-bottom: var(--spacing-4);
 }
 .bio a {
   padding-right: var(--spacing-2);

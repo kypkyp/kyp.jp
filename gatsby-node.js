@@ -21,6 +21,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
             frontmatter {
               title
+              genre
             }
           }
         }
@@ -108,7 +109,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       title: String
       description: String
       date: Date @dateformat
-      type: String
+      genre: String
     }
 
     type Fields {

@@ -2,6 +2,7 @@
 title: 有志団体のSAFE HAVNを立ち上げました
 date: "2023-03-01"
 description: SAFE HAVNはWebサービスやソフトウェアの開発・運営を目的とする任意団体です。Nuitaはこれまでkyp個人が運営していましたが、今後はSAFE HAVNが運営・開発をしていくことになります。
+genre: archive
 ---
 
 有志団体の [SAFE HAVN](https://safehavn.dev/) を立ち上げました。SAFE HAVN は Web サービスやソフトウェアの開発・運営を目的とする任意団体です。[Nuita](https://nuita.net/) はこれまで kyp 個人が運営していましたが、今後は SAFE HAVN が運営・開発をしていくことになります。

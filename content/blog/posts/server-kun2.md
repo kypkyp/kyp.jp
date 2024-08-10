@@ -1,6 +1,7 @@
 ---
 title: server-kunをIaC化しました
 date: "2021-12-17"
+genre: archive
 ---
 
 この記事は [KMC Advent Calendar 2021](https://adventar.org/calendars/6895) 17 日目の記事です。

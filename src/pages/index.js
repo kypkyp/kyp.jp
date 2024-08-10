@@ -5,7 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const privatePostTypes = ["poem"]
+const privatePostGenres = ["archive"]
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -26,8 +26,8 @@ const BlogIndex = ({ data, location }) => {
   }
 
   const publicPosts = posts.filter(post => {
-    const type = post.frontmatter.type
-    const isPrivate = type !== undefined && privatePostTypes.includes(type)
+    const genre = post.frontmatter.genre
+    const isPrivate = genre !== undefined && privatePostGenres.includes(genre)
 
     return !isPrivate
   })
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
-          type
+          genre
         }
       }
     }

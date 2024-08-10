@@ -42,14 +42,14 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           }}
         >
           <li>
-            {previous && (
+            {previous && previous?.frontmatter?.genre !== "archive" && (
               <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
+                ← {previous.frontmatter?.title}
               </Link>
             )}
           </li>
           <li>
-            {next && (
+            {next && next?.frontmatter?.genre !== "archive" && (
               <Link to={next.fields.slug} rel="next">
                 {next.frontmatter.title} →
               </Link>
@@ -78,7 +78,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
-        type
+        genre
       }
     }
   }
