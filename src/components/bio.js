@@ -10,7 +10,7 @@ import React from "react"
 const Bio = () => {
   return (
     <div className="bio">
-      <a href="https://twitter.com/_kypu_">Twitter</a>
+      <a href="https://twitter.com/_newkyp">Twitter</a>
       <a href="https://github.com/kypkyp">Github</a>
     </div>
   )
