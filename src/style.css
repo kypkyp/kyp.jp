@@ -329,6 +329,11 @@ a:focus {
   margin-bottom: var(--spacing-8);
 }
 
+.figcaption {
+  font-size: small;
+  text-align: center;
+}
+
 /* Media queries */
 
 @media (max-width: 42rem) {
