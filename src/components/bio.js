@@ -11,7 +11,7 @@ const Bio = () => {
   return (
     <div className="bio">
       <a href="https://twitter.com/_newkyp">Twitter</a>
-      <a href="https://safehavn.dev/">Studio</a>
+      <a href="https://github.com/kypkyp">Github</a>
     </div>
   )
 }
