@@ -10,12 +10,8 @@ import React from "react"
 const Bio = () => {
   return (
     <div className="bio">
-      <p>Webエンジニア兼インディーゲーム作者です。変なものが好き。</p>
-      <p>
-        <a href="https://safehavn.dev/">SAFE HAVN STUDIO</a>
-        <a href="https://twitter.com/_newkyp">Twitter</a>
-        <a href="https://github.com/kypkyp">Github</a>
-      </p>
+      <a href="https://twitter.com/_newkyp">Twitter</a>
+      <a href="https://safehavn.dev/">Studio</a>
     </div>
   )
 }
